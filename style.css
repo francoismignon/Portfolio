@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+    background-color: #71C9CE;
+    color: #71C9CE;
+    height: 100vh;
+}
+
+body{
+    font-size: 1.6rem;
+    font-family: "Bodoni Moda", serif;
+    background-color: #A6E3E9;
+    margin: 2rem;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    padding: 5rem;
+}
+
+a{
+    color: #71C9CE;
+    text-decoration: none;
+}
+
+p{
+    font-family: "Noto Sans", sans-serif;
+    width: 50ch;
+    margin-left: 0.9rem;
+}
+h1{
+    font-size: 8rem;
+}
+h2{
+    margin: 0.9rem;
+}
+
+/* hero */
+nav{
+    background-color: #CBF1F5;
+    border-radius: 2rem;
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: end;
+    gap: 3rem;
+    font-size: 3rem;
+    margin-right: 3rem;
+}
+/* introduction */
+.container-intro{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    gap: 3rem;
+    border-radius: 2rem;
+    background-color: #CBF1F5;
+    width: 100rem;
+    padding: 3rem;
+}
+/* .profile-desc{
+    margin: 8rem 0 10rem;
+} */
+
+span{
+    text-decoration: underline;
+}
+
+.profile-pic{
+    width: 30rem;
+    border-radius: 1rem;
+}
+/* portfolio */
+/* interet */
+/* contact */
+/* footer */
